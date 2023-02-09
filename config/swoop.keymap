@@ -1,0 +1,80 @@
+/*
+ * Copyright (c) 2020 duckyb
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/bt.h>
+
+// Layer definitions
+
+#define BASE 0
+
+// -----------------
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        // Base alpha layer
+
+        base {
+            label = "Base";
+            bindings = <
+&kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U      &kp I    &kp O  &kp P
+&kp A  &kp S  &kp D             &kp F      &lt 2 G    &kp H  &kp J      &kp K    &kp L  &kp SEMI
+&kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp ENTER
+              &none  &lt 1 SPACE  &lt 3 DEL    &lt 4 SPACE &kp BACKSPACE  &none 
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_REWIND C_FAST_FORWARD>;
+        };
+
+        number {
+            bindings = <
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans   &trans &trans &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+        };
+
+        f_media {
+            bindings = <
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans   &trans &trans &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+        };
+
+        symbol {
+            bindings = <
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans   &trans &trans &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+        };
+
+        ble {
+            bindings = <
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+&trans &trans &trans   &trans &trans &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+        };
+    };
+};

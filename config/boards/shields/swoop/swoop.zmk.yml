@@ -1,0 +1,12 @@
+file_format: "1"
+id: swoop
+name: swoop
+type: shield
+url: https://github.com/jimmerricks/swoop
+requires: [pro_micro]
+features:
+  - keys
+  - encoders
+siblings:
+  - swoop_left
+  - swoop_right
