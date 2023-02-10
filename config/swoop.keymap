@@ -37,8 +37,8 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0
      &kp TAB      &kp LEFT        &kp UP     &kp RIGHT     &kp GRAVE          &kp MINUS         &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &trans
-    &kp CAPS     &kp LCTRL      &kp DOWN  &kp LEFT_ALT       &kp DEL       &kp KP_SLASH  &kp SINGLE_QUOTE            &trans             &trans        &trans
-                                  &trans        &trans       &kp ESC    &kp RIGHT_SHIFT          &kp PIPE            &trans
+    &kp CAPS     &kp LCTRL      &kp DOWN  &kp LEFT_ALT       &kp DEL          &kp SLASH  &kp SINGLE_QUOTE            &trans             &trans        &trans
+                                  &trans        &trans       &kp ESC    &kp RIGHT_SHIFT     &kp BACKSLASH            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
@@ -49,7 +49,7 @@
 &kp F1  &kp F2  &kp F3     &kp F4        &kp F5             &kp F6  &kp C_AL_MY_COMPUTER         &none   &kp PSCRN  &kp C_AC_BOOKMARKS
 &trans  &trans  &trans     &trans        &trans         &kp C_MENU            &kp C_PREV  &kp C_VOL_UP  &kp C_NEXT    &kp C_AC_REFRESH
 &trans  &trans  &trans     &trans        &trans      &kp KP_DIVIDE            &kp C_PLAY  &kp C_VOL_DN  &kp C_STOP              &trans
-                &trans  &kp LCTRL  &kp LEFT_ALT    &rgb_ug RGB_TOG                &trans        &trans
+                &trans  &kp LCTRL  &kp LEFT_ALT    &rgb_ug RGB_TOG              &kp PIPE        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
