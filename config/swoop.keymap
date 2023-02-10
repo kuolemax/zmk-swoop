@@ -35,10 +35,10 @@
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans    &trans  &trans  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0
+     &kp TAB      &kp LEFT        &kp UP     &kp RIGHT     &kp GRAVE          &kp MINUS         &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &trans
+    &kp CAPS     &kp LCTRL      &kp DOWN  &kp LEFT_ALT       &kp DEL          &kp SLASH  &kp SINGLE_QUOTE            &trans             &trans        &trans
+                                  &trans        &trans       &kp ESC    &kp RIGHT_SHIFT     &kp BACKSLASH            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
