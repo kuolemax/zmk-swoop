@@ -13,10 +13,10 @@
 &kscan0 {
     diode-direction = "col2row";
     col-gpios
-        = <&pro_micro 15 (GPIO_ACTIVE_HIGH)> // COL0
-        , <&pro_micro 18 (GPIO_ACTIVE_HIGH)> // COL1
+        = <&pro_micro 21 (GPIO_ACTIVE_HIGH)> // COL0
+        , <&pro_micro 20 (GPIO_ACTIVE_HIGH)> // COL1
         , <&pro_micro 19 (GPIO_ACTIVE_HIGH)> // COL2
-        , <&pro_micro 20 (GPIO_ACTIVE_HIGH)> // COL3
-        , <&pro_micro 21 (GPIO_ACTIVE_HIGH)> // COL4
+        , <&pro_micro 18 (GPIO_ACTIVE_HIGH)> // COL3
+        , <&pro_micro 15 (GPIO_ACTIVE_HIGH)> // COL4
     ;
 };
