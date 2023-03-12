@@ -4,11 +4,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: encoder-fix
-      url-base: https://github.com/kuolemax/zmk
+      url-base: https://github.com/infused-kim/zmk/tree/
   projects:
     - name: zmk
       remote: encoder-fix
-      revision: encoder-fix
+      revision: my-changes/split-encoder
       import: app/west.yml
   self:
     path: config
