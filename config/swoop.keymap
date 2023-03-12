@@ -28,7 +28,7 @@
               &kp C_MUTE  &lt 1 SPACE  &lt 3 DEL    &lt 4 SPACE  &kp BACKSPACE  &kp RSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         number {
