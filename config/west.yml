@@ -3,10 +3,12 @@ manifest:
       # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: encoder-fix
+      url-base: https://github.com/kuolemax/zmk
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: encoder-fix
+      revision: encoder-fix
       import: app/west.yml
   self:
     path: config
