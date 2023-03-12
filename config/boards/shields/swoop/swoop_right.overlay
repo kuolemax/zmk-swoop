@@ -20,3 +20,7 @@
         , <&pro_micro 15 (GPIO_ACTIVE_HIGH)> // COL4
     ;
 };
+
+&right_encoder {
+	status = "okay";
+};
