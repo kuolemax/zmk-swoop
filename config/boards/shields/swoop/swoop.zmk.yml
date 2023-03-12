@@ -4,10 +4,12 @@ name: swoop
 type: shield
 url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
   - encoders
-  - oled
+  - underglow
 siblings:
   - swoop_left
   - swoop_right
