@@ -138,7 +138,7 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_N7  &kp KP_N8  &kp KP_N9  &none  &kp BSPC
        &none         &none         &none    &bt BT_CLR  &out OUT_TOG    &kp KP_N4  &kp KP_N5  &kp KP_N6  &none     &none
-       &none         &none         &none         &none         &none    &kp KP_N1  &kp KP_N2  &kp KP_N3  &none     &none
+       &none         &none         &none  &out OUT_USB  &out OUT_BLE    &kp KP_N1  &kp KP_N2  &kp KP_N3  &none     &none
                                   &trans         &none         &none    &kp KP_N0  &kp KP_N0     &trans
             >;
 
