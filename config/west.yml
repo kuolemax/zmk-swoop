@@ -5,14 +5,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kuolemax
       url-base: https://github.com/kuolemax
-    - name: zephyr-3
-      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      # remote: zephyr-3
-      # revision: zephyr/3.1-upgrade
       # remote: kuolemax
       # revision: encoder-fix
       import: app/west.yml
